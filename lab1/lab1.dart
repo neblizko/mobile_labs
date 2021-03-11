@@ -1,9 +1,11 @@
+//dart run
+
 class Class {
   int p1;
   int p2;
   String _p;
   String get p => _p;
-  void set p(String str) => _p = str + '. Field of Class';
+  set p(String str) => _p = str + '. Field of Class';
   static var collection = [];
 
   factory Class.f(int p1, p2) {
